@@ -6,6 +6,8 @@ set backspace=indent,eol,start
 " Add .bin to path
 let $PATH .= ':' . expand('~/.bin')
 
+" settings different from git clone from flask creator's
+exec 'source ~/.vim/settings.vim'
 " Menus I like :-)
 " This must happen before the syntax system is enabled
 aunmenu Help.
