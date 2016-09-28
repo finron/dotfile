@@ -43,9 +43,6 @@
 [submodule "vim/bundle/airline"]
 	path = vim/bundle/airline
 	url = https://github.com/bling/vim-airline
-[submodule "vim/bundle/jsbeautify"]
-	path = vim/bundle/jsbeautify
-	url = https://github.com/maksimr/vim-jsbeautify.git
 [submodule "vim/bundle/javascript"]
 	path = vim/bundle/javascript
 	url = https://github.com/pangloss/vim-javascript
@@ -106,3 +103,6 @@
 [submodule "vim/bundle/vim-jsbeautify"]
 	path = vim/bundle/vim-jsbeautify
 	url =  https://github.com/maksimr/vim-jsbeautify
+[submodule "vim/bundle/jedi-vim"]
+	path = vim/bundle/jedi-vim
+	url =  https://github.com/davidhalter/jedi-vim
