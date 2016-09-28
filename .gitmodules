@@ -106,3 +106,7 @@
 [submodule "vim/bundle/jedi-vim"]
 	path = vim/bundle/jedi-vim
 	url =  https://github.com/davidhalter/jedi-vim
+[submodule "vim/bundle/supertab"]
+	path = vim/bundle/supertab
+	url =  https://github.com/ervandew/supertab
+
