@@ -268,10 +268,13 @@ map <leader>b :Explore!<CR>
 " Split management
 nnoremap <leader>w <C-w>v<C-w>l
 nnoremap <leader>W <C-w>s
-nnoremap <leader>s :new<CR>
+" nnoremap <leader>s :new<CR>
+
+" save shortkey
+nnoremap <leader>s :w<CR>
 
 " ; is an alias for :
-nnoremap ; :
+"nnoremap ; :
 
 " Thank you vi
 nnoremap Y y$
