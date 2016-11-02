@@ -203,12 +203,15 @@ let g:ctrlp_match_window = 'bottom,order:top,min:1,max:20'
 nnoremap <leader><tab> :CtrlPMRU<CR>
 
 " toggle between number and relative number on ,l
+" nu number rnu relativenumber
 nnoremap <leader>l :call ToggleRelativeAbsoluteNumber()<CR>
 function! ToggleRelativeAbsoluteNumber()
-  if &number
-    set relativenumber
+  if &nu == 1 &&  &rnu == 0
+     set rnu
+  elseif &rnu == 1
+     set nornu
   else
-    set number
+     set nu
   endif
 endfunction
 
